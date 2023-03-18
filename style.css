@@ -1,0 +1,71 @@
+
+
+.hero{
+    height: 100vh;
+    background-image: url(./bg-2.png);
+    background-repeat: no-repeat;
+    background-size: 200px; 
+    background-position: left bottom 15%;
+
+}
+p{
+    color: dimgray;
+    line-height: 28px;
+}
+
+.carousel-indicators {
+   
+    bottom: -86px !important;
+  
+}
+.slider-details{
+    background-image: url(./bg-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% ;
+}
+.carousel-indicators [data-bs-target] {
+   
+    width: 17px !important;
+    height: 13px !important;
+    border-radius: 20px;
+   
+    border: none !important;
+   
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #4d4949 !important;
+}
+.carousel-dark .carousel-indicators [data-bs-target].active {
+    animation:  border_anim 10s linear forwards;
+     width: 35px !important;
+    height: 13px !important;
+   
+   
+}
+#carouselExampleDark .carousel-indicators .active{
+    background: rgb(251,174,4) !important;
+background: linear-gradient(107deg, rgba(251,174,4,1) 0%, rgba(255,253,46,1) 100%)!important;
+
+   }
+   
+.orenge{
+    color: rgb(251, 174, 4);
+   }
+
+.card{
+    border: none !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+@keyframes border_anim {
+	0%{
+		width: 0%;
+
+	}
+	100%{
+		width: 100%;
+       
+	}
+}
